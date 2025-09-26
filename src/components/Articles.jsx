@@ -5,7 +5,7 @@ function Articles(){
   <div className="rounded w-43 h-1 bg-blue-950"></div>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-    <div className=" rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className=" rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-1.jpg"
@@ -19,7 +19,7 @@ function Articles(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-2.jpg"
@@ -35,7 +35,7 @@ function Articles(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover "
         src="/image-3.jpg"
@@ -49,7 +49,7 @@ function Articles(){
       <button className="rounded-lg bg-orange-700 text-white font-medium rounded-lg text-sm py-2.5 w-30 cursor-pointer hover:bg-orange-800">voir details</button>
       </div>
     </div>
-    <div className=" rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className=" rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-4.jpg"
@@ -63,7 +63,7 @@ function Articles(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-5.jpg"
@@ -79,7 +79,7 @@ function Articles(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-6.jpg"
