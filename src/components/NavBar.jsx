@@ -3,15 +3,16 @@ function NavBar() {
 
 
     return (
-        <nav className="relative top-0 z-10 flex justify-between p-4 text-white">
+      
+        <nav className="relative top-0 z-50 flex justify-between p-4 text-white">
 
             <div className="flex gap-1 text-2xl">
       <img className="w-10 h-10" src="/maroc-logo.png" alt="maroc" />
                 <span>ArtConnect</span>
                 <span className="font-bold">Maroc</span></div>
-            <div className="flex space-x-8">
+            <div className="hidden md:flex space-x-8">
                 <Link to="/">
-                    <a href="#" aria-current="page" className="rounded-md bg-white/75 px-3 py-2 text-base font-medium text-orange-950">Accueil</a>
+                    <a href="#" aria-current="page" className="rounded-md px-3 py-2 text-base font-medium  hover:bg-white/75 hover:text-orange-950">Accueil</a>
                 </Link>
 
                 <Link to="/Publier">
@@ -39,7 +40,7 @@ function NavBar() {
           d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </label>
-  <div class="hidden peer-checked:flex flex-col space-y-2 px-4 pb-4 md:hidden">
+  <div class="hidden peer-checked:flex flex-col space-y-2 p-8 absolute top-full left-0 w-full h-screen bg-orange-950 md:hidden">
     <a href="#" class="rounded-md bg-white/75 px-3 py-2 text-base font-medium text-orange-950">Accueil</a>
     <a href="#" class="rounded-md px-3 py-2 text-base font-medium hover:bg-white/75 hover:text-orange-950">Publier</a>
     <a href="#" class="rounded-md px-3 py-2 text-base font-medium hover:bg-white/75 hover:text-orange-950">Favoris</a>
