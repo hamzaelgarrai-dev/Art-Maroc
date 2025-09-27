@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GestionOeuvres from "../components/GestionOeuvres";
+import GestionCategoties from "../components/GestionCategoties";
 
 function Admin() {
   const [activeSection, setActiveSection] = useState("oeuvres");
@@ -9,7 +10,7 @@ function Admin() {
       case "oeuvres":
         return <div><GestionOeuvres/></div>;
       case "categories":
-        return <div>Contenu des Catégories</div>;
+        return <div><GestionCategoties/></div>;
       case "artisans":
         return <div>Contenu des Artisants</div>;
       case "evenements":
