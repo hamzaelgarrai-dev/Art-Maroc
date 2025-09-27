@@ -7,13 +7,13 @@ import Apropos from "./Pages/Apropos"
 import Favoris from "./Pages/Favoris"
 import Publier from "./Pages/Publier"
 
+
 function App() {
   
 
   return (
     <>
-
-    <NavBar/>
+     <NavBar/>
 
 
     <Routes>
@@ -26,8 +26,7 @@ function App() {
     
     
     <Footer/>
-    
-      
+
     </>
   )
 }

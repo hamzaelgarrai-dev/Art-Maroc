@@ -3,6 +3,7 @@ import GestionOeuvres from "../components/GestionOeuvres";
 import GestionEvenements from "../components/GestionEvenements";
 import GestionArtisans from "../components/GestionArtisans";
 import ModalAdmin from "../components/ModalAdmin";
+import GestionCategoties from "../components/GestionCategoties";
 
 function Admin() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,7 +18,7 @@ function Admin() {
       case "oeuvres":
         return <div><GestionOeuvres onOpenModal={openModal}/></div>;
       case "categories":
-        return <div>Contenu des Catégories</div>;
+        return <div><GestionCategoties/></div>;
       case "artisans":
         return <div><GestionArtisans onOpenModal={openModal}/></div>;
       case "evenements":

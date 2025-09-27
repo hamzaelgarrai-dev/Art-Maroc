@@ -5,7 +5,7 @@ function Evénements(){
   <div className="rounded w-40 h-1 bg-blue-950"></div>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-    <div className=" rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className=" rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover"
         src="/image-7.jpg"
@@ -19,7 +19,7 @@ function Evénements(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover "
         src="/image-8.jpg"
@@ -34,7 +34,7 @@ function Evénements(){
       </div>
     </div>
 
-    <div className="rounded-md shadow-md overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+    <div className="rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
       <img
         className="w-full h-45 object-cover "
         src="/image-9.png"
