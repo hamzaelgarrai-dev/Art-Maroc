@@ -1,0 +1,92 @@
+{
+  "oeuvres": [
+    {
+      "id": 1,
+      "titre": "Tapis Amazigh",
+      "categorie": "Artisanat",
+      "region": "Marrakech",
+      "image": "/images/tapis.jpg",
+      "description": "Un tapis traditionnel amazigh tissé à la main."
+    },
+    {
+      "id": 2,
+      "titre": "Caftan Royal",
+      "categorie": "Habits",
+      "region": "Fès",
+      "image": "/images/caftan.jpg",
+      "description": "Caftan marocain avec broderies raffinées."
+    },
+    {
+      "id": 3,
+      "titre": "Festival Gnaoua",
+      "categorie": "Musique & Danse",
+      "region": "Essaouira",
+      "image": "/images/gnaoua.jpg",
+      "description": "Un festival de musique traditionnelle gnaoua."
+    },
+    {
+      "id": 4,
+      "titre": "Couscous Marocain",
+      "categorie": "Gastronomie",
+      "region": "Casablanca",
+      "image": "/images/couscous.jpg",
+      "description": "Plat traditionnel marocain préparé avec semoule et légumes."
+    },
+    {
+      "id": 5,
+      "titre": "Zellige Fassi",
+      "categorie": "Architecture",
+      "region": "Fès",
+      "image": "/images/zellige.jpg",
+      "description": "Motif de zellige artisanal utilisé dans la décoration architecturale."
+    }
+  ],
+  "categories": [
+    { "id": 1, "nom": "Artisanat" },
+    { "id": 2, "nom": "Gastronomie" },
+    { "id": 3, "nom": "Habits" },
+    { "id": 4, "nom": "Architecture" },
+    { "id": 5, "nom": "Musique & Danse" }
+  ],
+  "artisans": [
+    {
+      "id": 1,
+      "nom": "Fatima El Idrissi",
+      "specialite": "Tapis Amazigh",
+      "ville": "Marrakech",
+      "image": "/images/artisan1.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "Ahmed Ben Salah",
+      "specialite": "Caftan",
+      "ville": "Fès",
+      "image": "/images/artisan2.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "Youssef El Gnaoui",
+      "specialite": "Musicien Gnaoua",
+      "ville": "Essaouira",
+      "image": "/images/artisan3.jpg"
+    }
+  ],
+  "evenements": [
+    {
+      "id": 1,
+      "titre": "Festival des Arts de Marrakech",
+      "date": "2025-11-15",
+      "lieu": "Marrakech",
+      "description": "Festival annuel mettant en avant la culture marocaine.",
+      "image": "/images/festival.jpg"
+    },
+    {
+      "id": 2,
+      "titre": "Exposition Zellige",
+      "date": "2025-12-01",
+      "lieu": "Fès",
+      "description": "Découverte des plus belles pièces de zellige marocain.",
+      "image": "/images/zellige-event.jpg"
+    }
+  ]
+}
