@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { AppContext } from "../contexts/AppContext"
+import { Link } from "react-router-dom"
 
 function Articles(){
      const {oeuvres}=useContext(AppContext)
@@ -18,8 +19,11 @@ function Articles(){
     <div className="flex flex-col gap-2 p-5 pb-8">
       <span className="text-lg font-semibold text-blue-950">{oeuvre.titre} {oeuvre.region}</span>
       <p className="text-gray-500 text-sm">{oeuvre.categorie}</p>
+      <Link to={`/Details/${oeuvre.id}`}>
       <button className="rounded-lg bg-orange-700 text-white font-medium rounded-lg text-sm py-2.5 w-30 cursor-pointer hover:bg-orange-800">voir details</button>
+      </Link>
       </div>
+      
     </div>
   ))}
     

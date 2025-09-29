@@ -18,7 +18,7 @@ function Admin() {
       case "oeuvres":
         return <div><GestionOeuvres onOpenModal={openModal}/></div>;
       case "categories":
-        return <div><GestionCategoties/></div>;
+        return <div><GestionCategoties onOpenModal={openModal}/></div>;
       case "artisans":
         return <div><GestionArtisans onOpenModal={openModal}/></div>;
       case "evenements":

@@ -1,8 +1,7 @@
 {
   "oeuvres": [
-    
     {
-         "id": "1",
+      "id": "1",
       "titre": "Tapis Amazigh",
       "categorie": "Artisanat",
       "region": "Marrakech",
@@ -49,7 +48,14 @@
       "description": "testttt",
       "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1759097136/fnhqbdbfqsexslyrobg8.png"
     },
-
+    {
+      "id": "395f",
+      "titre": "tajine",
+      "categorie": "Gastronomie",
+      "region": "rabat",
+      "description": "fghfghhf",
+      "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1759142487/toqv0loza1qarbnisren.jpg"
+    }
   ],
   "categories": [
     {
@@ -112,6 +118,16 @@
       "lieu": "Fès",
       "description": "Découverte des plus belles pièces de zellige marocain.",
       "image": "/image-8.jpg"
+    }
+  ],
+  "favoris": [
+    {
+      "id": "2",
+      "titre": "Caftan Royal",
+      "categorie": "Habits",
+      "region": "Fès",
+      "image": "/image-5.jpg",
+      "description": "Caftan marocain avec broderies raffinées."
     }
   ]
 }
