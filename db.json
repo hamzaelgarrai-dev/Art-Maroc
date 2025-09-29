@@ -2,33 +2,54 @@
   "oeuvres": [
     
     {
-      "id": "12ab",
-      "titre": "Tapis",
+         "id": "1",
+      "titre": "Tapis Amazigh",
       "categorie": "Artisanat",
-      "region": "Amazigh",
-      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759090873/tbprpn9syvcj0jv8efic.jpg"
+      "region": "Marrakech",
+      "image": "/image-1.jpg",
+      "description": "Un tapis traditionnel amazigh tissé à la main."
     },
     {
-      "id": "2805",
-      "titre": "Caftan",
+      "id": "2",
+      "titre": "Caftan Royal",
       "categorie": "Habits",
       "region": "Fès",
-      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759091320/fcoyzjetdqffnb0xomqo.jpg"
+      "image": "/image-5.jpg",
+      "description": "Caftan marocain avec broderies raffinées."
     },
     {
-      "id": "bf6e",
+      "id": "3",
       "titre": "Babouches",
       "categorie": "Artisanat",
       "region": "Essaouira",
-      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759091390/nqjinl23qpk49akhh2oo.jpg"
+      "image": "/image-2.jpg",
+      "description": "Un festival de musique traditionnelle gnaoua."
     },
     {
-      "id": "ce49",
-      "titre": "Zellige",
+      "id": "4",
+      "titre": "Couscous Marocain",
+      "categorie": "Gastronomie",
+      "region": "Casablanca",
+      "image": "/image-4.jpg",
+      "description": "Plat traditionnel marocain préparé avec semoule et légumes."
+    },
+    {
+      "id": "5",
+      "titre": "Zellige Fassi",
       "categorie": "Architecture",
       "region": "Fès",
-      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759092017/w2wpepnrec6copjqclbe.jpg"
-    }
+      "image": "/image-3.jpg",
+      "description": "Motif de zellige artisanal utilisé dans la décoration architecturale."
+    },
+    {
+      "id": "65bf",
+      "titre": "test",
+      "categorie": "Art",
+      "region": "test",
+      "description": "testttt",
+      "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1759097136/fnhqbdbfqsexslyrobg8.png"
+    },
+
   ],
   "categories": [
     {

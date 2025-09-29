@@ -30,12 +30,12 @@ function Admin() {
 
   return (
     <div className="bg-[#FDF6E3]  min-h-screen flex flex-col">
-      {/* Top Bar */}
+      
       <div className="w-full h-24 top-0 absolute  bg-[#0F3D3E]"></div>
 
-      {/* Main Content Area */}
+     
       <div className="flex flex-1">
-        {/* Sidebar */}
+        
         <div className="w-36 bg-[#0F3D3E] pt-20 flex flex-col items-center">
           <button
             onClick={() => setActiveSection("oeuvres")}
@@ -69,7 +69,7 @@ function Admin() {
          <ModalAdmin isOpen={isModalOpen} onClose={closeModal} />
 
           {/* Dynamic Content Box */}
-          <div className="bg-white rounded-xl w-full max-w-[1000px] h-[850px] p-6 shadow-lg flex justify-center items-center">
+          <div className="bg-white rounded-xl w-full max-w-[1000px] min-h-screen p-6 shadow-lg flex justify-center items-center">
             {renderContent()}
             
           </div>
