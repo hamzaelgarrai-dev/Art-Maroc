@@ -1,7 +1,8 @@
 {
   "oeuvres": [
+    
     {
-      "id": "1",
+         "id": "1",
       "titre": "Tapis Amazigh",
       "categorie": "Artisanat",
       "region": "Marrakech",
@@ -48,14 +49,7 @@
       "description": "testttt",
       "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1759097136/fnhqbdbfqsexslyrobg8.png"
     },
-    {
-      "id": "c2b7",
-      "titre": "test2",
-      "categorie": "Habits",
-      "region": "test2",
-      "description": "test2222",
-      "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1759137334/ngmo3oqcpm4xcjbyhpix.png"
-    }
+
   ],
   "categories": [
     {
