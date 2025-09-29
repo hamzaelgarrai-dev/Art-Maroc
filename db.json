@@ -1,92 +1,96 @@
 {
   "oeuvres": [
+    
     {
-      "id": 1,
-      "titre": "Tapis Amazigh",
+      "id": "12ab",
+      "titre": "Tapis",
       "categorie": "Artisanat",
-      "region": "Marrakech",
-      "image": "/images/tapis.jpg",
-      "description": "Un tapis traditionnel amazigh tissé à la main."
+      "region": "Amazigh",
+      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759090873/tbprpn9syvcj0jv8efic.jpg"
     },
     {
-      "id": 2,
-      "titre": "Caftan Royal",
+      "id": "2805",
+      "titre": "Caftan",
       "categorie": "Habits",
       "region": "Fès",
-      "image": "/images/caftan.jpg",
-      "description": "Caftan marocain avec broderies raffinées."
+      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759091320/fcoyzjetdqffnb0xomqo.jpg"
     },
     {
-      "id": 3,
-      "titre": "Festival Gnaoua",
-      "categorie": "Musique & Danse",
+      "id": "bf6e",
+      "titre": "Babouches",
+      "categorie": "Artisanat",
       "region": "Essaouira",
-      "image": "/images/gnaoua.jpg",
-      "description": "Un festival de musique traditionnelle gnaoua."
+      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759091390/nqjinl23qpk49akhh2oo.jpg"
     },
     {
-      "id": 4,
-      "titre": "Couscous Marocain",
-      "categorie": "Gastronomie",
-      "region": "Casablanca",
-      "image": "/images/couscous.jpg",
-      "description": "Plat traditionnel marocain préparé avec semoule et légumes."
-    },
-    {
-      "id": 5,
-      "titre": "Zellige Fassi",
+      "id": "ce49",
+      "titre": "Zellige",
       "categorie": "Architecture",
       "region": "Fès",
-      "image": "/images/zellige.jpg",
-      "description": "Motif de zellige artisanal utilisé dans la décoration architecturale."
+      "image": "https://res.cloudinary.com/duyhne8q5/image/upload/v1759092017/w2wpepnrec6copjqclbe.jpg"
     }
   ],
   "categories": [
-    { "id": 1, "nom": "Artisanat" },
-    { "id": 2, "nom": "Gastronomie" },
-    { "id": 3, "nom": "Habits" },
-    { "id": 4, "nom": "Architecture" },
-    { "id": 5, "nom": "Musique & Danse" }
+    {
+      "id": "1",
+      "nom": "Artisanat",
+      "image": "/categorie-3.jpg"
+    },
+    {
+      "id": "2",
+      "nom": "Gastronomie",
+      "image": "/categorie-2.jpg"
+    },
+    {
+      "id": "3",
+      "nom": "Habits",
+      "image": "/categorie-4.jpg"
+    },
+    {
+      "id": "4",
+      "nom": "Architecture",
+      "image": "/categorie-1.jpg"
+    }
   ],
   "artisans": [
     {
-      "id": 1,
+      "id": "1",
       "nom": "Fatima El Idrissi",
       "specialite": "Tapis Amazigh",
       "ville": "Marrakech",
-      "image": "/images/artisan1.jpg"
+      "image": "/image.10.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "nom": "Ahmed Ben Salah",
       "specialite": "Caftan",
       "ville": "Fès",
-      "image": "/images/artisan2.jpg"
+      "image": "/image.11.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "nom": "Youssef El Gnaoui",
       "specialite": "Musicien Gnaoua",
       "ville": "Essaouira",
-      "image": "/images/artisan3.jpg"
+      "image": "/image.12.jpg"
     }
   ],
   "evenements": [
     {
-      "id": 1,
+      "id": "1",
       "titre": "Festival des Arts de Marrakech",
       "date": "2025-11-15",
       "lieu": "Marrakech",
       "description": "Festival annuel mettant en avant la culture marocaine.",
-      "image": "/images/festival.jpg"
+      "image": "/image-7.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "titre": "Exposition Zellige",
       "date": "2025-12-01",
       "lieu": "Fès",
       "description": "Découverte des plus belles pièces de zellige marocain.",
-      "image": "/images/zellige-event.jpg"
+      "image": "/image-8.jpg"
     }
   ]
 }
