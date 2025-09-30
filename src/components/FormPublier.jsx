@@ -5,6 +5,7 @@ import { AppContext } from "../contexts/AppContext";
 
 function FormPublier() {
   const { addOeuvre } = useContext(AppContext);
+  const {categories} = useContext(AppContext);
 
   const [titre, setTitre] = useState("");
   const [categorie, setCategorie] = useState("");
@@ -91,8 +92,9 @@ function FormPublier() {
               <option value="" disabled>
                 Sélectionnez une catégorie
               </option>
-              <option value="Art">Art</option>
-              <option value="Habits">Habits</option>
+              {categories.map((oeuv)=>(
+              <option key={oeuv.id} value={oeuv.nom}>{oeuv.nom}</option>
+                            ))}
             </select>
 
             <input
